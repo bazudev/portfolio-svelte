@@ -3,7 +3,6 @@
   import Header from '$lib/components/layout/Header.svelte';
 </script>
 
-<!-- svelte-ignore component_name_lowercase -->
 <Header />
 <main>
   <div class="container mx-auto p-4 pt-6">
