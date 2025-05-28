@@ -9,7 +9,7 @@
         <a href="#" class="text-lg font-bold text-gray-600 hover:text-gray-900">Home</a>
       </li>
       <li class="mr-6">
-        <a href="#" class="text-lg font-bold text-gray-600 hover:text-gray-900">Journey</a>
+        <a href="#" class="text-lg font-bold text-gray-600 hover:text-gray-900">Writeup</a>
       </li>
       <li class="mx-6">
         <img src={logo} alt="Logo" class="h-12 w-12 rounded-lg" />
