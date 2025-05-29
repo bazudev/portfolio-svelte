@@ -1,56 +1,19 @@
-<!-- Contact.svelte -->
 <script>
-  export let contactInfo = {
-    email: 'your-email@example.com',
-    phone: '+1 123 456 7890',
-    address: '123 Main St, Anytown, USA'
-  };
+  export let whatsappNumber = '+11234567890';
+  const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=Hello!%20I%20would%20like%20to%20contact%20you.`;
 </script>
 
-<div class="max-w-7xl mx-auto p-4 md:p-6 lg:p-8">
-  <h2 class="text-3xl font-bold text-gray-900 mb-4">Get in Touch</h2>
-  <p class="text-lg text-gray-600 mb-4">If you'd like to get in touch, please fill out the form below or contact me directly using the information provided.</p>
-  <form class="w-full max-w-lg">
-    <div class="flex flex-wrap -mx-3 mb-6">
-      <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-          First Name
-        </label>
-        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-first-name" type="text" placeholder="Jane">
-      </div>
-      <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-          Last Name
-        </label>
-        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
-      </div>
-    </div>
-    <div class="flex flex-wrap -mx-3 mb-6">
-      <div class="w-full px-3 mb-6 md:mb-0">
-        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-email">
-          Email
-        </label>
-        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-email" type="email" placeholder="your-email@example.com">
-      </div>
-    </div>
-    <div class="flex flex-wrap -mx-3 mb-6">
-      <div class="w-full px-3 mb-6 md:mb-0">
-        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-message">
-          Message
-        </label>
-        <textarea class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-message" placeholder="Your message..."></textarea>
-      </div>
-    </div>
-    <div class="flex flex-wrap -mx-3 mb-6">
-      <div class="w-full px-3 mb-6 md:mb-0">
-        <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded" type="submit">
-          Send Message
-        </button>
-      </div>
-    </div>
-  </form>
-  <h3 class="text-lg font-bold text-gray-900 mb-2">Contact Information</h3>
-  <p class="text-sm text-gray-600 mb-2">Email: {contactInfo.email}</p>
-  <p class="text-sm text-gray-600 mb-2">Phone: {contactInfo.phone}</p>
-  <p class="text-sm text-gray-600 mb-2">Address: {contactInfo.address}</p>
-</div>
+<!-- Floating WhatsApp button -->
+<a
+  href={whatsappLink}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Chat on WhatsApp"
+  class="fixed bottom-6 right-6 bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-lg transition-shadow duration-300"
+  style="z-index: 1000;"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
+    <path stroke-linecap="round" stroke-linejoin="round" d="M17.664 15.318c-.778.778-2.333 1.393-4.164 1.386-3.03-.011-5.761-2.734-5.776-5.756-.009-1.65.65-3.21 1.434-4.02m8.545 8.544l3.237 3.238m-4.13-2.912l2.678 2.677" />
+  </svg>
+</a>
