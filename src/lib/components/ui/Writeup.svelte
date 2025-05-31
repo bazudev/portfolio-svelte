@@ -2,46 +2,55 @@
   export let writeups = [
     {
       id: 1,
-      title: 'My First Writeup',
-      date: '2022-01-01',
-      summary: 'A detailed walkthrough of my first bug bounty experience and how I approached it.'
+      title: 'Web shell upload via obfuscated file extentiony First Writeup',
+      date: '2025-04-22',
+      summary: 'Bypassed file upload filter using null byte (%00) to upload a PHP web shell, causing Remote Code Execution (RCE) due to weak server-side validation.',
+      url : "https://github.com/boxgramer/writeup/blob/main/writeup-20250422.md"
     },
     {
       id: 2,
-      title: 'My Second Writeup',
-      date: '2022-01-15',
-      summary: 'Exploring an IDOR vulnerability I found on a public VDP and how it was fixed.'
+      title: ' Web Cache Poisoning with multiple headers',
+      date: '2025-04-25',
+      summary: 'Web cache poisoning via X-Forwarded headers enables injecting malicious scripts by poisoning cached responses, risking credential theft and session hijacking.',
+      url: 'https://github.com/boxgramer/writeup/blob/main/writeup-20250425.md'
     },
     {
       id: 3,
-      title: 'My Third Writeup',
-      date: '2022-02-01',
-      summary: 'How I chained a misconfigured CORS with token leakage to gain account access.'
+      title: 'Targeted web cache poisoning using an unknown header',
+      date: '2025-04-26',
+      summary: 'Targeted web cache poisoning via unvalidated X-Host header enables delivering malicious JavaScript to specific users, risking session hijacking and data theft.',
+      url: 'https://github.com/boxgramer/writeup/blob/main/writeup-20250426.md'
     },
     {
       id: 4,
-      title: 'My Fourth Writeup',
-      date: '2022-03-01',
-      summary: 'Found a subdomain takeover in a forgotten staging environment.'
+      title: 'Web cache poisoning via an unkeyed query parameter',
+      date: '2025-04-27',
+      summary: 'Web cache poisoning via unkeyed UTM query parameter allows injecting malicious JavaScript into cached pages, risking stored XSS attacks on users.',
+      url: 'https://github.com/boxgramer/writeup/blob/main/writeup-20250427.md'
     },
     {
       id: 5,
-      title: 'My Fifth Writeup',
-      date: '2022-04-10',
-      summary: 'Reflected XSS in a React SPA using a clever bypass.'
+      title: 'Parameter Cloaking',
+      date: '2025-04-29',
+      summary: 'Parameter cloaking with unkeyed UTM and ‘;’ separator enables cache poisoning, allowing attackers to inject scripts that execute on victim browsers.',
+      url: 'https://github.com/boxgramer/writeup/blob/main/writeup-20250429.md'
     },
     {
       id: 6,
-      title: 'My Sixth Writeup',
-      date: '2022-05-21',
-      summary: 'Chained CSRF + misconfigured CORS to escalate privileges.'
+      title: ' Web cache poisoning via a fat GET request',
+      date: '2025-04-30',
+      summary: 'Web cache poisoning via fat GET request with body allows script injection due to improper parameter parsing, enabling XSS and session hijacking risks.',
+      url: 'https://github.com/boxgramer/writeup/blob/main/writeup-20250430.md'
     },
     {
       id: 7,
-      title: 'My Seventh Writeup',
-      date: '2022-06-30',
-      summary: 'Advanced SSRF chaining on an internal API endpoint.'
+      title: 'Web cache poisoning to exploit a DOM vulnerability via a cache with strict cacheability criteria',
+      date: '2025-05-10',
+      summary: 'Web cache poisoning exploits DOM vulnerability via poisoned geolocate.json, enabling script injection and cookie theft through unsafe content rendering.',
+      url: 'https://github.com/boxgramer/writeup/blob/main/writeup-20250510.md'
+      
     }
+    
   ];
 
   const sortedWriteups = [...writeups].sort(
