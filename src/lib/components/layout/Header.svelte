@@ -20,7 +20,7 @@
   <nav class="container mx-auto flex justify-between items-center" aria-label="Main navigation">
   <div class="mx-6 flex gap-5 items-center">
         <img src={logo} alt="Logo" class="h-12 w-12 rounded-lg" />
-        <h1 class="text-4xl font-bold uppercase">Boxgramer</h1>
+        <h1 class="text-2xl font-bold uppercase sm:block hidden ">Boxgramer</h1>
   </div>
 
     <ul class="flex justify-center items-center">
