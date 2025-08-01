@@ -27,6 +27,20 @@
 
   let clientProjects = [
     {
+      title: "Education Phyics App Android",
+      description:
+        "This is an Android application for educational purposes, built with Flutter. It includes features like user registration, login, and game simulation , quis , material physics.",
+      images: [
+        "education/dashboard.png",
+        "education/drawing.png",
+        "education/materi.png",
+        "education/quis.png",
+        "education/mobil.png",
+        "education/simulation.png",
+      ],
+      demoLink: "https://wa.me/6281338209217?text=demophysics",
+    },
+    {
       title: "Pos System Web and Mobile",
       description:
         "this system using laravel project and using rest architecture, this webapp purpose for managaging stock,user client pos , get report from multple branch my role in this project is optimize performace , review code , mangaging team",
@@ -100,8 +114,10 @@
     {#if activeTab === "opensource"}
       <div class="space-y-10">
         {#each showAllOpenSource ? openSourceProjects : openSourceProjects.slice(0, 3) as project}
-          <div class="bg-indigo-50 flex gap-5 rounded-xl p-6 shadow-md">
-            <div class="overflow-x-auto w-1/4 flex space-x-4 mb-4">
+          <div
+            class="bg-indigo-50 flex md:flex-row flex-col gap-5 rounded-xl p-6 shadow-md"
+          >
+            <div class="overflow-x-auto md:w-1/4 w-full flex space-x-4 mb-4">
               {#each project.images as img}
                 <img
                   src={img}
