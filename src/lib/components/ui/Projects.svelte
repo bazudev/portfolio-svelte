@@ -1,5 +1,5 @@
 <script>
-  let activeTab = "opensource";
+  let activeTab = "client";
 
   let openSourceProjects = [
     {
@@ -97,16 +97,17 @@
     <!-- Tabs -->
     <div class="flex space-x-4 mb-8">
       <button
-        class={`px-4 py-2 rounded-full text-sm font-medium border transition ${activeTab === "opensource" ? "bg-indigo-600 text-white" : "bg-gray-100 text-gray-700"}`}
-        on:click={() => (activeTab = "opensource")}
-      >
-        Open Source Tools
-      </button>
-      <button
         class={`px-4 py-2 rounded-full text-sm font-medium border transition ${activeTab === "client" ? "bg-indigo-600 text-white" : "bg-gray-100 text-gray-700"}`}
         on:click={() => (activeTab = "client")}
       >
         Best Freelance Project
+      </button>
+
+      <button
+        class={`px-4 py-2 rounded-full text-sm font-medium border transition ${activeTab === "opensource" ? "bg-indigo-600 text-white" : "bg-gray-100 text-gray-700"}`}
+        on:click={() => (activeTab = "opensource")}
+      >
+        Open Source Tools
       </button>
     </div>
 
