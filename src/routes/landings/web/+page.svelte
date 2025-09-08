@@ -392,62 +392,67 @@
 				</div>
 			</div>
 		</section>
-
-		<!-- Contact Section -->
-		<section class="bg-gray-50 py-16">
-			<div class="max-w-3xl mx-auto text-center px-4">
-				<h2 class="text-3xl font-bold text-gray-800 mb-4">
-					Let's Build Something Amazing Together
-				</h2>
-				<p class="text-gray-600 mb-8">
-					Ready to bring your ideas to life? I specialize in creating custom
-					software solutions that solve real problems and deliver exceptional
-					user experiences.
-				</p>
-
-				<div class="bg-white shadow-md rounded-lg p-6 inline-block">
-					<h3 class="text-lg font-semibold text-gray-700 mb-4">Get In Touch</h3>
-					<div class="flex items-center justify-center space-x-3 mb-2">
-						<!-- Email Icon -->
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="h-5 w-5 text-teal-600"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M16 12H8m0 0l-4-4m4 4l4 4m0-4h8m0 0l4-4m-4 4l-4 4"
-							/>
-						</svg>
-						<span class="text-gray-700">hello@yoursoftwarehouse.com</span>
-					</div>
-					<div class="flex items-center justify-center space-x-3">
-						<!-- Phone Icon -->
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="h-5 w-5 text-teal-600"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M3 5h2l.4 2M7 7h2m1 1h2l1 1h2l2-2m-3 4h2m1 1h2"
-							/>
-						</svg>
-						<span class="text-gray-700">+1 (555) 123-4567</span>
-					</div>
-				</div>
-			</div>
-		</section>
 	</div>
 </main>
+<!-- Contact Section -->
+<section class="bg-gray-50 py-16">
+	<div class="max-w-3xl mx-auto text-center px-4">
+		<h2 class="text-3xl font-bold text-gray-800 mb-4">
+			Let's Build Something Amazing Together
+		</h2>
+		<p class="text-gray-600 mb-8">
+			Ready to bring your ideas to life? I specialize in creating custom
+			software solutions that solve real problems and deliver exceptional user
+			experiences.
+		</p>
+
+		<div class="max-w-sm mx-auto bg-white rounded-xl shadow-md p-6 text-center">
+			<h2 class="text-lg font-semibold text-gray-800 mb-4">Get In Touch</h2>
+
+			<div class="flex items-center justify-center space-x-2 mb-2">
+				<!-- Email Icon -->
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="w-5 h-5 text-teal-600"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+					stroke-width="1.8"
+				>
+					<rect x="2" y="5" width="20" height="14" rx="2" ry="2" />
+					<path d="M3 7.5l8.5 6L20.5 7.5" />
+				</svg>
+				<a
+					href="mailto:boxgramer@gmail.com"
+					class="text-gray-700 hover:text-teal-600">boxgramer@gmail.com</a
+				>
+			</div>
+
+			<div class="flex items-center justify-center space-x-2 mb-3">
+				<!-- Phone Icon -->
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="w-5 h-5 text-teal-600"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+					stroke-width="1.8"
+				>
+					<path
+						d="M22 16.92v3a2 2 0 0 1-2.18 2A19.77 19.77 0 0 1 3.08 4.18 2 2 0 0 1 5 2h3a1 1 0 0 1 1 .75c.12.7.37 1.37.73 2.01a1 1 0 0 1-.24 1.07L8.5 7.5a16 16 0 0 0 8 8l1.67-1.99a1 1 0 0 1 1.07-.24c.64.36 1.31.61 2.01.73a1 1 0 0 1 .75 1z"
+					/>
+				</svg>
+				<a href="tel:+6281338209217" class="text-gray-700 hover:text-teal-600"
+					>+6281-338-209-217</a
+				>
+			</div>
+
+			<a href="#" class="text-gray-600 hover:text-teal-600 text-sm"
+				>detail more</a
+			>
+		</div>
+	</div>
+</section>
 
 <!-- Footer Section -->
 <footer class="bg-gray-100 py-6">
