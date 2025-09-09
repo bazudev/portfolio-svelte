@@ -1,5 +1,6 @@
-<script lang="ts">
-	import Footer from "$lib/components/layout/Footer.svelte";
+<script>
+	import { projects } from "../../../data/project_client";
+	var focus_project = projects[1];
 </script>
 
 <main class="container mx-auto max-w-6xl px-6 py-12">
@@ -99,6 +100,11 @@
 					<div
 						class="relative bg-gradient-to-br from-cyan-200 to-blue-200 min-h-[200px]"
 					>
+						<img
+							src="..{focus_project.images[0]}"
+							alt={focus_project.title}
+							class="w-full h-full object-cover"
+						/>
 						<!-- Top Badge -->
 						<span
 							class="absolute top-3 left-3 bg-teal-600 text-white text-xs font-semibold px-3 py-1 rounded"
@@ -129,30 +135,9 @@
 						<!-- Title + Link -->
 						<div class="flex justify-between items-start mb-3">
 							<h3 class="text-lg md:text-xl font-semibold text-gray-800">
-								TaskFlow Pro – Project Management Platform
+								{focus_project.title}
 							</h3>
 							<!-- External Link -->
-							<a
-								href="#"
-								target="_blank"
-								rel="noopener noreferrer"
-								class="text-gray-500 hover:text-gray-700"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									class="w-5 h-5"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke="currentColor"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M10 6h8m0 0v8m0-8L9 15m-3 3h12a2 2 0 002-2V6a2 2 0 00-2-2H9a2 2 0 00-2 2v12a2 2 0 002 2z"
-									/>
-								</svg>
-							</a>
 						</div>
 
 						<!-- Meta Info -->
@@ -172,7 +157,7 @@
 										d="M8 7V3m8 4V3m-9 8h10m-11 5h12M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
 									/>
 								</svg>
-								2024
+								{focus_project.year}
 							</div>
 							<div class="flex items-center gap-1">
 								<svg
@@ -189,41 +174,23 @@
 										d="M9 17v-2h6v2m-7-8h8M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
 									/>
 								</svg>
-								Full-Stack Application
+								{focus_project.type}
 							</div>
 						</div>
 
 						<!-- Description -->
 						<p class="text-gray-700 text-sm md:text-base mb-6">
-							Comprehensive project management solution featuring real-time
-							collaboration, advanced task tracking, team analytics, and
-							automated workflow management. Built with modern architecture
-							patterns including microservices, real-time updates, and
-							responsive design for optimal user experience.
+							{focus_project.description}
 						</p>
 
 						<!-- Tech Stack -->
 						<div class="flex flex-wrap gap-2">
-							<span
-								class="bg-blue-600 text-white text-xs px-3 py-1 rounded-full"
-								>React</span
-							>
-							<span
-								class="bg-blue-600 text-white text-xs px-3 py-1 rounded-full"
-								>Node.js</span
-							>
-							<span
-								class="bg-blue-600 text-white text-xs px-3 py-1 rounded-full"
-								>PostgreSQL</span
-							>
-							<span
-								class="bg-blue-600 text-white text-xs px-3 py-1 rounded-full"
-								>WebSocket</span
-							>
-							<span
-								class="bg-blue-600 text-white text-xs px-3 py-1 rounded-full"
-								>Docker</span
-							>
+							{#each focus_project.stacks as stack}
+								<span
+									class="bg-blue-600 text-white text-xs px-3 py-1 rounded-full"
+									>{stack}</span
+								>
+							{/each}
 						</div>
 					</div>
 				</div>
