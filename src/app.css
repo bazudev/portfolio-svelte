@@ -1,1 +1,98 @@
 @import "tailwindcss";
+
+/* ── Design Tokens — Fun Light Pastel Palette ──────────── */
+:root {
+  /* Light Backgrounds */
+  --bg:        #fcfbfa; /* Soft cream/off-white */
+  --surface:   #f5f3f0; /* Slightly darker cream for alternate sections */
+  --card:      #ffffff; /* Pure white for cards */
+  --border:    rgba(0, 0, 0, 0.08);
+  --border-hi: rgba(0, 0, 0, 0.15);
+
+  /* Fun Pastel Colors (Vibrant but light) */
+  --accent:    #fb7185; /* Pastel Rose/Pink */
+  --accent-lo: rgba(251, 113, 133, 0.12);
+  --accent-gl: rgba(251, 113, 133, 0.3);
+
+  --warm:      #fdba74; /* Pastel Peach/Orange */
+  --warm-lo:   rgba(253, 186, 116, 0.15);
+
+  --green:     #6ee7b7; /* Pastel Mint */
+  --green-lo:  rgba(110, 231, 183, 0.15);
+
+  --gold:      #fde047; /* Pastel Yellow */
+  --gold-lo:   rgba(253, 224, 71, 0.2);
+
+  --lavender:  #c4b5fd; /* Pastel Lavender */
+  --lavender-lo: rgba(196, 181, 253, 0.15);
+
+  --blue:      #93c5fd; /* Pastel Blue */
+  --blue-lo:   rgba(147, 197, 253, 0.15);
+
+  /* Text for Light Mode */
+  --text:        #2d3748; /* Slate gray/almost black for readability */
+  --text-muted:  #64748b; /* Lighter slate gray for descriptions */
+
+  --font: 'Inter', system-ui, sans-serif;
+}
+
+/* ── Base ──────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font);
+  background-color: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar ─────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* ── Selection ─────────────────────────────────────────── */
+::selection { background: var(--accent-lo); color: var(--text); }
+
+/* ── Modal scroll lock ─────────────────────────────────── */
+body.modal-open { overflow: hidden; }
+
+/* ── Writeup markdown content ──────────────────────────── */
+.content h1, .content h2, .content h3,
+.content h4, .content h5, .content h6 {
+  color: var(--text);
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+.content h1 { font-size: 2rem; }
+.content h2 { font-size: 1.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+.content h3 { font-size: 1.2rem; }
+.content p  { color: var(--text-muted); line-height: 1.8; margin-bottom: 1rem; }
+.content a  { color: var(--accent); text-decoration: underline; }
+.content a:hover { opacity: 0.8; }
+.content code {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 4px; padding: 0.15em 0.4em;
+  font-size: 0.875em; color: var(--accent);
+}
+.content pre {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 8px; padding: 1.25rem;
+  overflow-x: auto; margin-bottom: 1.5rem;
+}
+.content pre code { background: none; border: none; padding: 0; color: var(--text); }
+.content ul, .content ol {
+  color: var(--text-muted); padding-left: 1.5rem;
+  margin-bottom: 1rem; line-height: 1.8;
+}
+.content blockquote {
+  border-left: 3px solid var(--accent); margin-left: 0;
+  padding-left: 1rem; color: var(--text-muted); font-style: italic;
+  background: var(--surface); padding: 1rem; border-radius: 0 8px 8px 0;
+}
+.content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+.content strong { color: var(--text); font-weight: 600; }
