@@ -15,6 +15,24 @@
 <svelte:head>
   <title>Boxgramer — Commercial Gameplay Programmer</title>
   <meta name="description" content="Bazudewa (Boxgramer) — Commercial Gameplay Programmer. Building gameplay systems, game architecture, and production-ready features for commercial games using Unity, Godot, and modern engineering practices." />
+  
+  <!-- Search Engine Bot Directives -->
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+  <!-- Open Graph for Social Sharing & AI Bots -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Boxgramer — Commercial Gameplay Programmer" />
+  <meta property="og:description" content="Bazudewa (Boxgramer) — Commercial Gameplay Programmer. Building gameplay systems, game architecture, and production-ready features for commercial games using Unity, Godot, and modern engineering practices." />
+  <meta property="og:image" content="/favicon.png" />
+  <meta property="og:site_name" content="Boxgramer Portfolio" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Boxgramer — Commercial Gameplay Programmer" />
+  <meta name="twitter:description" content="Bazudewa (Boxgramer) — Commercial Gameplay Programmer. Building gameplay systems, game architecture, and production-ready features for commercial games using Unity, Godot, and modern engineering practices." />
+  <meta name="twitter:image" content="/favicon.png" />
 </svelte:head>
 
 <Header />

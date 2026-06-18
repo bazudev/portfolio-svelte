@@ -134,7 +134,7 @@
   });
 </script>
 
-<section style="background: var(--surface); padding: 7rem 0; border-top: 1px solid var(--border);">
+<section id="technical" style="background: var(--surface); padding: 7rem 0; border-top: 1px solid var(--border);">
   <div class="container mx-auto max-w-6xl px-6">
     <div class="mb-12">
       <div class="flex items-center gap-3 mb-3">
