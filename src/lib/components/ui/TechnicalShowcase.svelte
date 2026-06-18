@@ -4,131 +4,105 @@
 
   const showcaseProjects = [
     {
-      title: "Multiplayer Game",
-      label: "Personal Technical Project",
+      title: "Spaceventure",
+      label: "Technical Project",
       engine: "Unity + Nakama",
       color: "var(--blue)",
-      description:
-        "A multiplayer game built to explore networked game architecture. Implements authentication, matchmaking, and real-time game state synchronization using Nakama backend.",
+      description: "Implement lobby system login using Nakama and Unity.",
       highlights: [
-        "Client-side prediction and server reconciliation",
-        "Nakama server integration for auth and matchmaking",
-        "Real-time game state synchronization",
+        "Lobby system integration",
+        "Nakama authentication",
+        "Unity client development"
       ],
-      youtubeId: "",
-      github: "https://github.com/boxgramer/multiplayer-sample",
+      github: "https://github.com/bazudev/Spaceventure",
       images: [
-        'https://picsum.photos/seed/tc1/640/360',
-        'https://picsum.photos/seed/tc2/640/360',
-        'https://picsum.photos/seed/tc3/640/360',
-        'https://picsum.photos/seed/tc4/640/360'
-      ]
-    },
-    {
-      title: "Puzzle Game",
-      label: "Personal Project",
-      engine: "Godot",
-      color: "var(--green)",
-      description:
-        "A fully featured puzzle game built in Godot. Includes a complete gameplay loop, progression system, persistent save data, and polished mechanics.",
-      highlights: [
-        "Complete core game loop and state management",
-        "Persistent data saving via Godot's FileAccess",
-        "UI navigation and juiciness (tweens/particles)",
-      ],
-      youtubeId: "",
-      github: "https://github.com/boxgramer/puzzle-godot",
-      images: [
-        'https://picsum.photos/seed/tc5/640/360',
-        'https://picsum.photos/seed/tc6/640/360',
-        'https://picsum.photos/seed/tc7/640/360',
-        'https://picsum.photos/seed/tc8/640/360'
+        '/spaceventure/Screenshot 2026-06-18 215401.png',
+        '/spaceventure/Screenshot 2026-06-18 215410.png',
+        '/spaceventure/Screenshot 2026-06-18 215439.png'
       ]
     },
     {
       title: "Maze Generator",
-      label: "Technical Experiment",
-      engine: "Godot",
+      label: "Algorithm / Generation",
+      engine: "Godot & GDScript",
       color: "var(--gold)",
-      description:
-        "A procedural maze generator and playable game in Godot. Focuses on algorithmic problem-solving and real-time procedural content generation.",
+      description: "Implement generate maze for 2D game using Godot and GDScript.",
       highlights: [
-        "Implemented Depth-First Search for maze generation",
-        "Procedural mesh and collision generation",
-        "Dynamic pathfinding and solver implementation",
+        "2D Maze generation algorithm",
+        "GDScript implementation",
+        "Procedural generation"
       ],
-      youtubeId: "",
-      github: "https://github.com/boxgramer/maze-generator",
+      github: "https://github.com/bazudev/MazeGenerator",
       images: [
-        'https://picsum.photos/seed/tc9/640/360',
-        'https://picsum.photos/seed/tc10/640/360',
-        'https://picsum.photos/seed/tc11/640/360',
-        'https://picsum.photos/seed/tc12/640/360'
+        '/maze/Screenshot 2026-06-18 212402.png'
       ]
     },
     {
-      title: "Mud Deformation Effect",
-      label: "Technical Experiment",
-      engine: "Unity / Shader Graph",
+      title: "Mud Effect",
+      label: "Graphics / Shaders",
+      engine: "Godot Shader",
       color: "var(--warm)",
-      description:
-        "A highly interactive mud/snow deformation system using compute shaders and dynamic displacement mapping. Players can leave permanent trails and footprints.",
+      description: "Implement mud effect using Godot shader.",
       highlights: [
-        "Compute shader integration for high-performance state tracking",
-        "Dynamic tessellation and displacement mapping",
-        "Optimized for real-time mobile performance",
+        "Custom Godot shader",
+        "Deformation effect",
+        "Visual styling"
       ],
-      youtubeId: "dQw4w9WgXcQ",
-      github: "https://github.com/boxgramer",
+      github: "https://github.com/bazudev/godot_mud_effect",
       images: [
-        'https://picsum.photos/seed/mud1/640/360',
-        'https://picsum.photos/seed/mud2/640/360',
-        'https://picsum.photos/seed/mud3/640/360',
-        'https://picsum.photos/seed/mud4/640/360'
+        '/mud/Screenshot 2026-06-18 212754.png'
       ]
     },
     {
-      title: "Interactive Water Shader",
-      label: "Graphics Programming",
-      engine: "Godot / HLSL",
+      title: "Water Effect",
+      label: "Graphics / Shaders",
+      engine: "Godot Shader",
       color: "var(--blue)",
-      description:
-        "A stylized water shader with depth-based color absorption, edge intersection foam, and interactive ripples driven by physics objects.",
+      description: "Implement water effect using Godot shader.",
       highlights: [
-        "Custom gerstner wave implementation",
-        "Depth texture sampling for intersection foam",
-        "Interactive physics ripples using render targets",
+        "Custom Godot water shader",
+        "Visual effects integration"
       ],
-      youtubeId: "9bZkp7q19f0",
-      github: "https://github.com/boxgramer",
+      github: "https://github.com/bazudev/water_effect",
       images: [
-        'https://picsum.photos/seed/wtr1/640/360',
-        'https://picsum.photos/seed/wtr2/640/360',
-        'https://picsum.photos/seed/wtr3/640/360',
-        'https://picsum.photos/seed/wtr4/640/360'
+        '/water/Screenshot 2026-06-18 212611.png'
       ]
     },
     {
-      title: "Magnet Physics System",
-      label: "Gameplay Mechanics",
-      engine: "Unity",
+      title: "Magnet Effect",
+      label: "Physics / Gameplay",
+      engine: "Godot",
       color: "var(--lavender)",
-      description:
-        "A robust physics-driven magnetism system allowing objects to attract, repel, and form dynamic clusters based on polarity and mass.",
+      description: "Implement magnet effect using Godot raycast.",
       highlights: [
-        "Custom Rigidbody velocity calculation",
-        "Inverse square law attraction optimization",
-        "Multi-object clustering and stable stacking",
+        "Raycast-based physics",
+        "Magnet attraction mechanics",
+        "Godot engine physics"
       ],
-      youtubeId: "kJQP7kiw5Fk",
-      github: "https://github.com/boxgramer",
+      github: "https://github.com/boxgramer/MagnetBox",
       images: [
-        'https://picsum.photos/seed/mag1/640/360',
-        'https://picsum.photos/seed/mag2/640/360',
-        'https://picsum.photos/seed/mag3/640/360',
-        'https://picsum.photos/seed/mag4/640/360'
+        '/magnet/Screenshot 2026-06-18 212946.png',
+        '/magnet/Screenshot 2026-06-18 212958.png'
       ]
     },
+    {
+      title: "HTML5 Space Ship Game",
+      label: "Web Game",
+      engine: "Phaser 2D",
+      color: "var(--green)",
+      description: "Implement space ship game using Phaser 2D.",
+      highlights: [
+        "HTML5 Canvas rendering",
+        "Phaser 2D framework",
+        "Spaceship mechanics"
+      ],
+      github: "https://github.com/boxgramer/ship",
+      images: [
+        '/ship/ss1.png',
+        '/ship/ss2.png',
+        '/ship/ss3.png'
+      ]
+    }
   ];
 
   let selectedProject = null;
@@ -245,24 +219,7 @@
       <!-- Body -->
       <div class="p-6 space-y-7">
 
-        <!-- YouTube embed -->
-        {#if selectedProject.youtubeId}
-          <div>
-            <p class="text-xs font-bold uppercase tracking-widest mb-3 flex items-center gap-2" style="color:var(--warm);">
-              <span>▶</span> Preview Video
-            </p>
-            <div style="aspect-ratio:16/9; border-radius:14px; overflow:hidden; border:1px solid var(--border);">
-              <iframe
-                src="https://www.youtube.com/embed/{selectedProject.youtubeId}?rel=0&modestbranding=1"
-                style="width:100%; height:100%; display:block;"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-                title="{selectedProject.title} video"
-              ></iframe>
-            </div>
-          </div>
-        {/if}
+
         
         <!-- GitHub CTA -->
         <a href={selectedProject.github} target="_blank" rel="noopener noreferrer" 

@@ -7,7 +7,6 @@
     "Game Systems Engineer",
     "Multiplayer Systems Dev",
     "Software Engineer",
-    "Security Researcher",
   ];
 
   let displayedRole = "";
@@ -103,7 +102,7 @@
 
         <!-- Description -->
         <p class="text-base leading-relaxed max-w-lg mx-auto lg:mx-0 font-medium" style="color: var(--text-muted);">
-          I specialize in gameplay programming and multiplayer systems, building robust mechanics for commercial titles using Unity, Godot, and Roblox. As a secondary focus, I apply my strong software engineering background to full-stack web development and security research.
+          I specialize in gameplay programming and multiplayer systems, building robust mechanics for commercial titles using Unity, Godot, and Roblox. As a secondary focus, I apply my strong software engineering background to full-stack web development.
         </p>
 
         <!-- CTAs -->

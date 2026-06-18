@@ -4,147 +4,109 @@
 
   const gameProjects = [
     {
-      title: "Boat Game",
-      badge: "Gameplay Programmer",
+      title: "Boat Game (Commercial Prototype)",
+      badge: "Lead Programmer",
       badgeColor: "#93c5fd",
-      engine: "Godot",
-      teamSize: "2 Programmers",
-      year: "2025",
+      engine: "Unity Engine 6",
+      teamSize: "Commercial Prototype",
+      year: "2026",
       featured: true,
-      description:
-        "A commercial boat game built with a small team. Responsible for implementing core gameplay features, building the game's foundational systems, and collaborating closely with the other programmer to ship production-ready mechanics.",
+      description: "A time-based boat racing game where players compete to complete courses as quickly as possible while navigating dynamic water environments and checkpoint challenges.",
       responsibilities: [
-        "Core Gameplay Features",
-        "Game Systems Development",
-        "Gameplay Architecture",
-        "Team Collaboration",
+        "Lead Programmer | Unity, C#"
       ],
       highlights: [
-        "Implemented boat physics and movement mechanics",
-        "Built the game state and save/load pipeline",
-        "Contributed to gameplay feature design and iteration",
-        "Worked in a 2-programmer team to hit production milestones",
+        "Implemented custom water shaders and buoyancy simulation for dynamic boat behavior.",
+        "Developed race course systems, checkpoints, and player progression mechanics.",
+        "Designed and implemented core gameplay mechanics and supporting game systems.",
+        "Established gameplay architecture and technical foundations for the prototype.",
+        "Led gameplay feature development and technical decision-making throughout the project."
       ],
-      youtubeId: 'dQw4w9WgXcQ',
       galleryImages: [
-        'https://picsum.photos/seed/10/640/360',
-        'https://picsum.photos/seed/11/640/360',
-        'https://picsum.photos/seed/12/640/360',
-        'https://picsum.photos/seed/13/640/360',
-        'https://picsum.photos/seed/14/640/360',
-        'https://picsum.photos/seed/15/640/360',
-        'https://picsum.photos/seed/16/640/360',
-        'https://picsum.photos/seed/17/640/360',
+        '/boat/Screenshot 2026-06-18 205950.png',
+        '/boat/Screenshot 2026-06-18 210000.png',
+        '/boat/Screenshot 2026-06-18 210007.png',
+        '/boat/Screenshot 2026-06-18 210047.png',
+        '/boat/Screenshot 2026-06-18 210120.png',
       ],
     },
     {
-      title: "Cat Game",
+      title: "Metro Runner",
       badge: "Gameplay Programmer",
       badgeColor: "#86efac",
-      engine: "Godot / Unity",
+      engine: "Godot Engine 3",
+      teamSize: "Slabgame",
+      year: "2024",
+      featured: false,
+      description: "A casual arcade game where players navigate through busy environments, avoid obstacles and enemies, collect rewards, and survive for as long as possible.",
+      responsibilities: [
+        "Gameplay Programmer"
+      ],
+      highlights: [
+        "Implemented AI behavior and gameplay interactions for enemy snail characters.",
+        "Designed and implemented character abilities using GDScript in Godot.",
+        "Developed gameplay systems supporting player actions and enemy interactions."
+      ],
+      galleryImages: [
+        '/metro-runner/Screenshot 2026-06-18 204251.png',
+        '/metro-runner/Screenshot 2026-06-18 204327.png',
+        '/metro-runner/Screenshot 2026-06-18 204338.png',
+        '/metro-runner/Screenshot 2026-06-18 211308.png',
+        '/metro-runner/Screenshot 2026-06-18 211316.png',
+        '/metro-runner/Screenshot 2026-06-18 211332.png',
+      ],
+      link: "https://play.google.com/store/apps/details?id=com.slabgames.metrorunner&hl=id"
+    },
+    {
+      title: "Cheerleader Simulator",
+      badge: "Programmer",
+      badgeColor: "#fde68a",
+      engine: "Roblox Studio",
       teamSize: "Team Project",
       year: "2025",
       featured: false,
-      description:
-        "Commercial cat-themed game. Focused on implementing gameplay features, bug fixing, and integrating gameplay systems with the broader project.",
+      description: "A Roblox dance and clicking game where players perform activities, improve their cheerleading skills, earn rewards, and progress through various gameplay challenges.",
       responsibilities: [
-        "Feature Implementation",
-        "Gameplay Development",
-        "Bug Fixing",
-        "System Integration",
+        "Programmer"
       ],
       highlights: [
-        "Implemented core player interaction systems",
-        "Integrated gameplay with backend services",
-        "Resolved critical gameplay bugs before release",
+        "Developed gameplay mechanics using Lua within the Roblox engine.",
+        "Implemented gameplay systems and player interactions using the Knit framework.",
+        "Utilized Rojo for project structure, version control workflow, and development pipeline integration.",
+        "Designed and implemented game features to support player progression and engagement."
       ],
-      youtubeId: '9bZkp7q19f0',
       galleryImages: [
-        'https://picsum.photos/seed/20/640/360',
-        'https://picsum.photos/seed/21/640/360',
-        'https://picsum.photos/seed/22/640/360',
-        'https://picsum.photos/seed/23/640/360',
-        'https://picsum.photos/seed/24/640/360',
-        'https://picsum.photos/seed/25/640/360',
-        'https://picsum.photos/seed/26/640/360',
-        'https://picsum.photos/seed/27/640/360',
+        '/cheerleader/20250625.png',
+        '/cheerleader/20250702.png',
+        '/cheerleader/Screenshot 2025-06-07 123627.png',
+        '/cheerleader/Screenshot 2025-06-13 155116.png',
+        '/cheerleader/Screenshot 2025-06-18 213136.png',
+        '/cheerleader/Screenshot 2025-06-26 231240.png',
       ],
     },
     {
-      title: "Story Game 1",
-      badge: "Gameplay Programmer",
-      badgeColor: "#fde68a",
-      engine: "Unity",
-      teamSize: "Team Project",
-      year: "2024",
-      featured: false,
-      description:
-        "Commercial story-driven game. Contributed gameplay systems and feature development aligned with the design vision.",
-      responsibilities: ["Gameplay Systems", "Feature Development", "Technical Problem Solving"],
-      highlights: [
-        "Built narrative trigger and dialogue systems",
-        "Optimized scene loading for smoother transitions",
-      ],
-      youtubeId: 'kJQP7kiw5Fk',
-      galleryImages: [
-        'https://picsum.photos/seed/30/640/360',
-        'https://picsum.photos/seed/31/640/360',
-        'https://picsum.photos/seed/32/640/360',
-        'https://picsum.photos/seed/33/640/360',
-        'https://picsum.photos/seed/34/640/360',
-        'https://picsum.photos/seed/35/640/360',
-        'https://picsum.photos/seed/36/640/360',
-        'https://picsum.photos/seed/37/640/360',
-      ],
-    },
-    {
-      title: "Story Game 2",
+      title: "FisBud (Education Game)",
       badge: "Gameplay Programmer",
       badgeColor: "var(--accent)",
-      engine: "Unity",
+      engine: "Godot 4",
       teamSize: "Team Project",
-      year: "2024",
-      featured: false,
-      description:
-        "Second commercial story-game title. Delivered gameplay programming contributions including game mechanics, feature implementation, and system integration.",
-      responsibilities: ["Gameplay Mechanics", "Feature Implementation", "System Integration"],
-      highlights: [
-        "Built reusable gameplay component library",
-        "Implemented event system for decoupled game logic",
-      ],
-      youtubeId: 'JGwWNGJdvx8',
-      galleryImages: [
-        'https://picsum.photos/seed/40/640/360',
-        'https://picsum.photos/seed/41/640/360',
-        'https://picsum.photos/seed/42/640/360',
-        'https://picsum.photos/seed/43/640/360',
-        'https://picsum.photos/seed/44/640/360',
-        'https://picsum.photos/seed/45/640/360',
-        'https://picsum.photos/seed/46/640/360',
-        'https://picsum.photos/seed/47/640/360',
-      ],
-    },
-    {
-      title: "Roblox Tycoon / RPG",
-      badge: "Gameplay Programmer",
-      badgeColor: "var(--lavender)",
-      engine: "Roblox Studio",
-      teamSize: "Studio Team",
       year: "2025",
       featured: false,
-      description:
-        "Commercial Roblox game title. Developed core gameplay mechanics, progression systems, and server-client data synchronization using Luau.",
-      responsibilities: ["Core Gameplay", "Luau Scripting", "DataStore Integration"],
-      highlights: [
-        "Programmed complex networked abilities",
-        "Optimized client-server remote events",
+      description: "An educational physics game that helps students learn scientific concepts through interactive simulations, visualizations, quizzes, and adaptive learning mechanics.",
+      responsibilities: [
+        "Gameplay Programmer"
       ],
-      youtubeId: 'dQw4w9WgXcQ',
+      highlights: [
+        "Designed and implemented educational gameplay mechanics based on physics concepts.",
+        "Developed interactive visualizations to demonstrate fundamental physics laws and principles.",
+        "Built quiz systems to support learning progression and player assessment.",
+        "Implemented fuzzy logic algorithms to drive game behavior and adaptive gameplay elements.",
+        "Developed gameplay systems and user interactions using Godot and Gdscript."
+      ],
       galleryImages: [
-        'https://picsum.photos/seed/rbx1/640/360',
-        'https://picsum.photos/seed/rbx2/640/360',
-        'https://picsum.photos/seed/rbx3/640/360',
-        'https://picsum.photos/seed/rbx4/640/360',
+        '/fisbud/Screenshot 2026-06-18 211308.png',
+        '/fisbud/Screenshot 2026-06-18 211316.png',
+        '/fisbud/Screenshot 2026-06-18 211332.png',
       ],
     },
   ];
@@ -209,23 +171,14 @@
         <div style="height:3px; background:linear-gradient(90deg, var(--accent) 0%, var(--lavender) 50%, var(--warm) 100%);"></div>
 
         <div class="flex flex-col lg:flex-row">
-          <!-- Placeholder panel -->
-          <div class="lg:w-2/5 min-h-[240px] relative flex items-center justify-center overflow-hidden"
-            style="background: linear-gradient(135deg, var(--surface) 0%, #ffffff 50%, var(--surface) 100%);">
-            <div class="text-center space-y-2 p-8 relative z-10">
-              <div class="text-7xl" style="filter:drop-shadow(0 4px 10px rgba(0,0,0,0.1));">⛵</div>
-              <p class="text-xs font-bold tracking-widest uppercase" style="color:var(--text-muted);">Click to View Details</p>
-            </div>
-            <!-- Animated glow orb -->
-            <div style="
-              position:absolute; width:200px; height:200px; border-radius:50%;
-              background: radial-gradient(circle, rgba(147,197,253,0.3) 0%, transparent 70%);
-              top:50%; left:50%; transform:translate(-50%,-50%);
-              animation: orb 4s ease-in-out infinite;
-            "></div>
+          <!-- Thumbnail panel -->
+          <div class="lg:w-2/5 min-h-[240px] relative flex items-center justify-center overflow-hidden bg-black">
+            {#if featured.galleryImages && featured.galleryImages.length > 0}
+              <img src={featured.galleryImages[0]} alt="{featured.title} thumbnail" class="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            {/if}
             <!-- Badge -->
-            <div class="absolute top-4 left-4 px-3 py-1.5 rounded-lg text-xs font-bold"
-              style="background:rgba(255,255,255,0.8); color:var(--text); border:1px solid var(--border);">
+            <div class="absolute top-4 left-4 px-3 py-1.5 rounded-lg text-xs font-bold z-10"
+              style="background:rgba(255,255,255,0.85); color:var(--text); border:1px solid var(--border);">
               🎮 {featured.badge}
             </div>
             <!-- "View details" hint on hover -->
@@ -248,16 +201,14 @@
               </div>
               <p style="color:var(--text-muted);" class="leading-relaxed text-sm">{featured.description}</p>
             </div>
-            <div class="grid sm:grid-cols-2 gap-5">
+            <div class="space-y-5">
               <div>
-                <p class="text-xs font-bold tracking-widest uppercase mb-3" style="color:var(--accent);">Responsibilities</p>
-                <ul class="space-y-2">
+                <p class="text-xs font-bold tracking-widest uppercase mb-2" style="color:var(--accent);">Role / Responsibilities</p>
+                <div class="flex flex-wrap gap-2">
                   {#each featured.responsibilities as r}
-                    <li class="flex items-center gap-2 text-sm" style="color:var(--text-muted);">
-                      <span style="width:5px;height:5px;border-radius:50%;background:var(--accent);flex-shrink:0;"></span>{r}
-                    </li>
+                    <span class="px-3 py-1 rounded-md text-xs font-semibold" style="background:var(--surface); color:var(--text); border:1px solid var(--border);">{r}</span>
                   {/each}
-                </ul>
+                </div>
               </div>
               <div>
                 <p class="text-xs font-bold tracking-widest uppercase mb-3" style="color:var(--green);">What I Did</p>
@@ -276,7 +227,7 @@
     {/if}
 
     <!-- Other Projects -->
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
       {#each rest as project}
         <button
           class="text-left rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl cursor-pointer group"
@@ -284,11 +235,12 @@
           on:click={() => openModal(project)}
           aria-label="Open {project.title} details"
         >
-          <div class="h-40 flex items-center justify-center relative overflow-hidden"
-            style="background: linear-gradient(135deg, var(--surface) 0%, #ffffff 100%); border-bottom: 1px solid var(--border);">
-            <div class="text-5xl" style="filter:drop-shadow(0 4px 10px rgba(0,0,0,0.1)); opacity:0.9;">🎮</div>
-            <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-xs font-bold"
-              style="background:rgba(255,255,255,0.8); color:var(--text); border:1px solid var(--border);">
+          <div class="h-40 flex items-center justify-center relative overflow-hidden bg-black" style="border-bottom: 1px solid var(--border);">
+            {#if project.galleryImages && project.galleryImages.length > 0}
+              <img src={project.galleryImages[0]} alt="{project.title} thumbnail" class="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform duration-500 group-hover:scale-110" loading="lazy" />
+            {/if}
+            <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-xs font-bold z-10"
+              style="background:rgba(255,255,255,0.85); color:var(--text); border:1px solid var(--border);">
               {project.badge}
             </div>
             <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -369,24 +321,6 @@
       <!-- Body -->
       <div class="p-6 space-y-7">
 
-        <!-- YouTube embed -->
-        <div>
-          <p class="text-xs font-bold uppercase tracking-widest mb-3 flex items-center gap-2" style="color:var(--warm);">
-            <span>▶</span> Gameplay Video
-            <span class="font-normal normal-case tracking-normal" style="color:var(--text-muted);">(sample placeholder)</span>
-          </p>
-          <div style="aspect-ratio:16/9; border-radius:14px; overflow:hidden; border:1px solid var(--border);">
-            <iframe
-              src="https://www.youtube.com/embed/{selectedProject.youtubeId}?rel=0&modestbranding=1"
-              style="width:100%; height:100%; display:block;"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-              title="{selectedProject.title} video"
-            ></iframe>
-          </div>
-        </div>
-
         <!-- Image gallery -->
         <div>
           <p class="text-xs font-bold uppercase tracking-widest mb-3 flex items-center gap-2" style="color:var(--accent);">
@@ -420,25 +354,21 @@
         </div>
 
         <!-- Responsibilities + Highlights -->
-        <div class="grid sm:grid-cols-2 gap-6">
+        <div class="space-y-6">
           <div>
-            <p class="text-xs font-bold uppercase tracking-widest mb-3" style="color:var(--accent);">Responsibilities</p>
-            <ul class="space-y-2.5">
+            <p class="text-xs font-bold uppercase tracking-widest mb-3" style="color:var(--accent);">Role / Responsibilities</p>
+            <div class="flex flex-wrap gap-2">
               {#each selectedProject.responsibilities as r}
-                <li class="flex items-center gap-3 text-sm" style="color:var(--text-muted);">
-                  <span class="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-xs"
-                    style="background:var(--accent-lo); color:var(--accent);">✓</span>
-                  {r}
-                </li>
+                <span class="px-3 py-1.5 rounded-lg text-sm font-semibold" style="background:var(--surface); color:var(--text); border:1px solid var(--border);">{r}</span>
               {/each}
-            </ul>
+            </div>
           </div>
           <div>
             <p class="text-xs font-bold uppercase tracking-widest mb-3" style="color:var(--green);">What I Did</p>
-            <ul class="space-y-2.5">
+            <ul class="space-y-3">
               {#each selectedProject.highlights as h}
-                <li class="flex items-start gap-3 text-sm" style="color:var(--text-muted);">
-                  <span class="flex-shrink-0 mt-0.5 w-5 h-5 rounded-full flex items-center justify-center text-xs"
+                <li class="flex items-start gap-3 text-sm leading-relaxed" style="color:var(--text-muted);">
+                  <span class="flex-shrink-0 mt-1 w-5 h-5 rounded-full flex items-center justify-center text-xs"
                     style="background:var(--green-lo); color:var(--green);">★</span>
                   {h}
                 </li>
@@ -447,14 +377,26 @@
           </div>
         </div>
 
-        <!-- Close button -->
-        <button
-          on:click={closeModal}
-          class="w-full py-3 rounded-xl text-sm font-bold transition-all hover:bg-black/5"
-          style="background:var(--surface); color:var(--text); border:1px solid var(--border);"
-        >
-          Close ×
-        </button>
+        <!-- Close button & Links -->
+        <div class="flex gap-4">
+          {#if selectedProject.link}
+            <a
+              href={selectedProject.link}
+              target="_blank"
+              class="flex-1 py-3 text-center rounded-xl text-sm font-bold transition-all hover:opacity-90 flex items-center justify-center gap-2"
+              style="background:var(--accent); color:#080c10; border:1px solid var(--accent);"
+            >
+              Play Game / View
+            </a>
+          {/if}
+          <button
+            on:click={closeModal}
+            class="{selectedProject.link ? 'flex-1' : 'w-full'} py-3 rounded-xl text-sm font-bold transition-all hover:bg-black/5"
+            style="background:var(--surface); color:var(--text); border:1px solid var(--border);"
+          >
+            Close ×
+          </button>
+        </div>
       </div>
 
     </div>

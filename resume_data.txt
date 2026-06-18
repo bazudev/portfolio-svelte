@@ -1,0 +1,121 @@
+Wayan Rimba Bazudewa (Bazudev)
+Gameplay Programmer & Software Engineer
+Bali, Indonesia
+website : boxgramer.github.io 
+
+GitHub: https://github.com/boxgramer | https://github.com/bazudev
+WhatsApp: +62 813 3820 9217
+
+--- ABOUT ME ---
+Building games. Solving problems.
+I'm Bazudewa (Bazudev) — a Gameplay Programmer and Software Engineer based in Bali, Indonesia. I build gameplay features, game mechanics, and production-ready systems for commercial games using Godot, Unity, and Roblox. My background spans game development and full-stack software engineering, giving me the ability to connect gameplay systems with solid backend architecture.
+
+- Over 5 years of professional software development combined with commercial gameplay programming experience since 2020 building core features for shipped titles.
+- Currently building toward a multiplayer specialization — studying networking, matchmaking, and backend integration with Nakama.
+- Comfortable across the full stack: Godot/Unity gameplay systems, Laravel APIs, and Flutter mobile apps.
+- Experienced working in small programmer teams, comfortable with fast iteration and collaborative game development workflows.
+
+--- EXPERIENCE ---
+Game Programmer (Freelance)
+SLAB Game (Apr 2025 – Present)
+Freelance game programmer working on commercial game titles for the studio. Building gameplay systems and features using Godot Engine and Roblox scripting (Lua).
+Tags: Godot, Roblox, Lua, GDScript
+
+Freelance Software Engineer
+Independent (2021 – Present)
+Delivering client projects ranging from web applications to automation tools. Primarily working with the TALL stack (TailwindCSS, AlpineJS, Laravel, Livewire) and Flutter for mobile.
+Tags: Laravel, Flutter, MySQL, TailwindCSS
+
+Full Stack Developer (Full-time)
+Primakara College (2020 – 2021)
+Built and maintained internal web applications for the university using the Laravel framework.
+Tags: Laravel, MySQL, PHP
+
+--- TECHNICAL SKILLS ---
+Gameplay Programming: Unity, Godot, Roblox / Lua, C# (.NET), GDScript
+Multiplayer & Networking: Nakama Server, REST APIs, Authentication, Matchmaking, Networking Concepts
+Programming Languages: C#, GDScript, PHP, JavaScript / TypeScript, Lua
+Software Engineering: Laravel, MySQL, PostgreSQL, Git / GitHub, REST Architecture
+Additional Skills: Performance Optimization, Code Review, Flutter / Dart
+
+--- GAME PROJECTS ---
+Boat Game (Commercial Prototype) - 2026
+Role: Lead Programmer | Unity Engine 6
+A time-based boat racing game where players compete to complete courses as quickly as possible while navigating dynamic water environments and checkpoint challenges.
+- Implemented custom water shaders and buoyancy simulation for dynamic boat behavior.
+- Developed race course systems, checkpoints, and player progression mechanics.
+- Designed and implemented core gameplay mechanics and supporting game systems.
+- Established gameplay architecture and technical foundations for the prototype.
+- Led gameplay feature development and technical decision-making throughout the project.
+
+Metro Runner - 2024 (Slabgame)
+Role: Gameplay Programmer | Godot Engine 3
+A casual arcade game where players navigate through busy environments, avoid obstacles and enemies, collect rewards, and survive for as long as possible.
+- Implemented AI behavior and gameplay interactions for enemy snail characters.
+- Designed and implemented character abilities using GDScript in Godot.
+- Developed gameplay systems supporting player actions and enemy interactions.
+
+Cheerleader Simulator - 2025
+Role: Programmer | Roblox Studio
+A Roblox dance and clicking game where players perform activities, improve their cheerleading skills, earn rewards, and progress through various gameplay challenges.
+- Developed gameplay mechanics using Lua within the Roblox engine.
+- Implemented gameplay systems and player interactions using the Knit framework.
+- Utilized Rojo for project structure, version control workflow, and development pipeline integration.
+- Designed and implemented game features to support player progression and engagement.
+
+FisBud (Education Game) - 2025
+Role: Gameplay Programmer | Godot 4
+An educational physics game that helps students learn scientific concepts through interactive simulations, visualizations, quizzes, and adaptive learning mechanics.
+- Designed and implemented educational gameplay mechanics based on physics concepts.
+- Developed interactive visualizations to demonstrate fundamental physics laws and principles.
+- Built quiz systems to support learning progression and player assessment.
+- Implemented fuzzy logic algorithms to drive game behavior and adaptive gameplay elements.
+- Developed gameplay systems and user interactions using Godot and Gdscript.
+
+--- TECHNICAL SHOWCASE ---
+Spaceventure (Technical Project)
+Engine: Unity + Nakama
+Implement lobby system login using Nakama and Unity.
+- Lobby system integration
+- Nakama authentication
+- Unity client development
+GitHub: https://github.com/bazudev/Spaceventure
+
+Maze Generator (Algorithm / Generation)
+Engine: Godot & GDScript
+Implement generate maze for 2D game using Godot and GDScript.
+- 2D Maze generation algorithm
+- GDScript implementation
+- Procedural generation
+GitHub: https://github.com/bazudev/MazeGenerator
+
+Mud Effect (Graphics / Shaders)
+Engine: Godot Shader
+Implement mud effect using Godot shader.
+- Custom Godot shader
+- Deformation effect
+- Visual styling
+GitHub: https://github.com/bazudev/godot_mud_effect
+
+Water Effect (Graphics / Shaders)
+Engine: Godot Shader
+Implement water effect using Godot shader.
+- Custom Godot water shader
+- Visual effects integration
+GitHub: https://github.com/bazudev/water_effect
+
+Magnet Effect (Physics / Gameplay)
+Engine: Godot
+Implement magnet effect using Godot raycast.
+- Raycast-based physics
+- Magnet attraction mechanics
+- Godot engine physics
+GitHub: https://github.com/boxgramer/MagnetBox
+
+HTML5 Space Ship Game (Web Game)
+Engine: Phaser 2D
+Implement space ship game using Phaser 2D.
+- HTML5 Canvas rendering
+- Phaser 2D framework
+- Spaceship mechanics
+GitHub: https://github.com/boxgramer/ship
